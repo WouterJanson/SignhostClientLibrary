@@ -42,7 +42,8 @@ TestResult.xml
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
-
+*.nuget.props
+*.lock.json
 *_i.c
 *_p.c
 *_i.h

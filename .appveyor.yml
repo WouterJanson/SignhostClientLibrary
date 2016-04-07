@@ -5,7 +5,4 @@ configuration: Release
 before_build:
 - cmd: nuget restore "src\Signhost API Client.sln"
 
-build:
-  parallel: true
-  project: src\Signhost API Client.sln
-  publish_nuget: true
+build_script: msbuild /m "src\Signhost API Client.sln" /p:Configuration=Release /p:Platform="AnyCPU"

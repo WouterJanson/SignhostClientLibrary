@@ -1,0 +1,13 @@
+﻿{
+	"dependencies": {
+		"Flurl": "1.0.10",
+		"Flurl.Http": "0.7.0",
+		"Newtonsoft.Json": "8.0.3"
+	},
+	"frameworks": {
+		"net452": { }
+	},
+	"runtimes": {
+		"win": { }
+	}
+}
